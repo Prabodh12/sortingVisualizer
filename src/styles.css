@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+.bars{
+    width: 2px;background-color: #00ffff;display: inline-block;margin: 0 1px;vertical-align:top;
+  }
+  .navbar {
+    min-height: 80px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+.navbar-toggle {
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+
+.container {
+    left: 150px;
+    height: 60%;
+    align-items: center;
+}
+

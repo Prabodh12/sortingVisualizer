@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h4 class="text-white">Collapsed content</h4>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <button id="generate" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"
+        (click)="RandomNum()">
+        Generate New Array
+      </button>
+      <button id="mergesort" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" 
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" (click)="MergeSort()">
+        Merge Sort
+      </button>
+      <button id="quicksort" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" (click)="QuickSort()">
+        Quick Sort
+      </button>
+      <button id="selectionsort" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" (click)="SelectionSort()">
+        Selection Sort
+      </button>
+      <button id="bubblesort" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" (click)="BubbleSort()">
+        Bubble Sort
+      </button>
+    </nav>
+  </div>
+
+  <div class="container" id="Container">
+    
+  </div>
+</body>
+
+</html>
